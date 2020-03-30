@@ -1,0 +1,284 @@
+body{
+    @import url('https://fonts.googleapis.com/css?family=Anton|Inconsolata&display=swap');
+}
+nav{
+    background-image: url(Background_image_edited.png);
+    width: 100%;
+    height: 500px;
+    display:grid;
+    grid-template-columns: 6% 10% 28% 5% 5% 35% 10%;
+    grid-template-rows: 7% 10% 3% 1% 17% 17% 10% 25%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul{
+    grid-column:5/8;
+    grid-row: 2;
+}
+ li{ 
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder; 
+    padding: 10px;
+    display:inline;
+}
+h1{ 
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    color: white;
+    grid-column: 2/7;
+    grid-row: 6;
+}
+h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 31px;
+    color: white;
+    grid-column: 2/7;
+    grid-row:7;
+}
+h4{
+    font-family:'Inconsolata', monospace;
+    font-size:20px ;
+    color: grey;
+    grid-column: 2/4;
+    grid-row: 2;
+}
+.logo{
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    grid-column: 2;
+    grid-row:2;
+}
+.line{
+    background-color: rgba(69, 69, 99, 0.575);
+    height: 1px; 
+    grid-column: 1/8;
+    grid-row: 4;
+}
+.box{
+    background-color: rgb(230, 224, 224);
+    height: 120px;
+    display:grid;
+    grid-template-columns: 20% 53% 27%;
+    grid-template-rows: 22% 20%;
+}
+.getReesult{
+    background-image: linear-gradient(90deg, rgb(238, 101, 10), rgb(253, 223, 87) );
+    width: 55%;
+    height: 55px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border-radius: 100px ;
+    margin-top: 5px;
+    grid-column: 3;
+    grid-row:2 ;
+}
+.partition{
+    display:grid;
+    grid-template-columns: 13% 5%  4% 15% 4% 3% 4% 14% 7% 6% 4% 10% ;
+    grid-template-rows: 30% 20% 0% 40%;
+    width: 100%;
+    height: 250px;
+}
+.logo1{
+    background-image: url(icon_seo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    grid-column: 3;
+    grid-row:2;
+}
+.titleSeo{
+    grid-column: 4;
+    grid-row:2;
+}
+.textSeo{
+    text-align: center;
+    line-height : 20px;
+    font-family:'Inconsolata', monospace;
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+    grid-column: 2/5;
+    grid-row:4;
+}
+.logo2{
+    background-image: url(icon_webdesign.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    grid-column: 7;
+    grid-row:2;
+}
+.titleWebDesign{
+    grid-column: 8;
+    grid-row:2;
+}
+.textWebDesign{
+    text-align: center;
+    line-height : 20px;
+    font-family:'Inconsolata', monospace;
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+    grid-column: 6/9;
+    grid-row:4;
+}
+.logo3{
+    background-image: url(icon_ppc.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    grid-column: 11;
+    grid-row:2;
+}
+.titlePpc{
+    grid-column: 12;
+    grid-row:2;
+}
+.textPpc{
+    text-align: center;
+    line-height : 20px;
+    font-family:'Inconsolata', monospace;
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+    grid-column: 10/13;
+    grid-row:4;
+}
+.partition1{
+    display:grid;
+    grid-template-columns: 22% 5% 5% 3% 6.5% 3.5% 2.8% 2.8% 2.8% 2.8% 5% 20% 5% ;
+    grid-template-rows: 12% 10% 3% 1% 17% 17% 6% 13% 8% ;
+    width: 100%;
+    height: 620px;
+}
+.boxOpinions{
+    display:grid;
+    grid-template-columns:  5% 7% 3% 10% 3% 18% 7% 43%;
+    grid-template-rows: 8% 11% 8% 6% 8% 25% 10% 5% 8% 3% ;
+    box-shadow: 1px 3px 1px rgba(181, 181, 189, 0.548);
+    border: 1px solid rgba(181, 181, 189, 0.233);
+    border-radius: 20px;
+    line-height : 25px;
+    width: 800px;
+    height: 300px;
+    grid-column: 2/11;
+    grid-row: 2;
+}
+.titleOpinions{
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    color: rgb(82, 82, 82);
+    margin-top: 30px;
+    grid-column: 6/11;
+    grid-row:1;
+}
+.blackColor{
+    color: black;
+}
+.line2{
+    background-color: rgba(13, 56, 97, 0.945);
+    border-radius: 10px;
+    margin-left: 18px;
+    height: 6px; 
+    width: 40px;
+    grid-column: 7/8;
+    grid-row: 3;
+}
+.quotationMarks{
+    background-image: url(quotation.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 2;
+    grid-row: 5;
+}
+.textOpinions{
+    font-family:'Inconsolata', monospace;
+    color: rgb(82, 82, 82);
+    grid-column: 4/9;
+    grid-row:4/7;
+    font-size:16px ;
+}
+.imageProfile{
+    background-image: url(avatar.png);
+    background-size: 100% 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    grid-column: 4;
+    grid-row: 7/10;
+}
+.name{
+    font-weight: 700;
+    grid-column: 5/7;
+    grid-row: 7;
+}
+.job{
+    color: grey;
+    margin-top: 10px;
+    grid-column: 5;
+    grid-row: 8;
+}
+.point1{
+    background-color:#9096904b;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    grid-column: 7;
+    grid-row: 8;
+}
+.point2{
+    background-color:#9096904b;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    grid-column: 8;
+    grid-row: 8;
+}
+.point3{
+    background-color:#909690;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    grid-column: 9;
+    grid-row: 8;
+}
+.point4{
+    background-color:#9096904b;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    grid-column: 10;
+    grid-row: 8;
+}
+.getTouch{
+    background-image: linear-gradient(90deg, rgb(238, 101, 10), rgb(253, 223, 87) );
+    width: 45%;
+    height: 62px;
+    font-family: 'Anton', sans-serif;
+        font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border-radius: 100px ;
+    grid-column: 6/13;
+    grid-row: 9;
+
+}
+.box1{
+    background-color: rgb(230, 224, 224);
+    height: 120px;
+    display:grid;
+    grid-template-columns: 35%;
+    grid-template-rows: 20%;
+}
+.rigthsReserved{
+    font-size: 20px;
+    grid-column:2/3;
+    grid-row:2 ;
+}
+.greyColor{
+    color: rgb(109, 109, 109);
+}
